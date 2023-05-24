@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendations</title>
+</head>
+<body>
+    <h1>Book Recommendations App</h1>
+    <form method="POST">
+        <label for="book_title">Enter Book Title:</label>
+        <input type="text" id="book_title" name="book_title" required>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Recommended Books:</h2>
+    {{ rec_books | safe }}
+</body>
+</html>
