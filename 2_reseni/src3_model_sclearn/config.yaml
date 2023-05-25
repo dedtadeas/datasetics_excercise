@@ -1,6 +1,0 @@
-'min-ratings' : 8 # min number of ratings 
-'book-rating-file-name' : 'BX-Book-Ratings.csv'
-'book-file-name' : 'BX-Books.csv'
-'data-url' : 'http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip'
-'dataset_file_name' : 'dataset.csv'
-'model_file_name' : 'model.csv'
